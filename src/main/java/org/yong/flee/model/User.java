@@ -1,4 +1,4 @@
-package org.yong.spring.mvc.model;
+package org.yong.flee.model;
 
 public class User {
 

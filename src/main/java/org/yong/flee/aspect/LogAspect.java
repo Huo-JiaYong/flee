@@ -1,4 +1,4 @@
-package org.yong.spring.aop.aspect;
+package org.yong.flee.aspect;
 
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;

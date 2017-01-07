@@ -1,9 +1,9 @@
-package org.yong.spring.mvc.config;
+package org.yong.flee.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
-import org.yong.spring.mvc.interceptor.LoginInterceptor;
+import org.yong.flee.interceptor.LoginInterceptor;
 
 @Configuration
 public class WebConfig extends WebMvcConfigurerAdapter {

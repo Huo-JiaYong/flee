@@ -12,7 +12,7 @@
 
 	<mvc:annotation-driven />
 
-	<context:component-scan base-package="org.yong.spring.*" />
+	<context:component-scan base-package="org.yong.flee.*" />
 
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
@@ -36,12 +36,12 @@
 	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
 		<property name="dataSource" ref="dataSource" />
 		<!-- 自动扫描 mapping.xml 文件 -->
-		<property name="mapperLocations" value="classpath:org/yong/mybatis/mapping/*.xml"></property>
+		<property name="mapperLocations" value="classpath:org/yong/flee/mapping/*.xml"></property>
 	</bean>
 
 	<!-- DAO 接口所在包名，Spring 会自动查找其下的类 -->
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-		<property name="basePackage" value="org.yong.spring.mvc.dao" />
+		<property name="basePackage" value="org.yong.flee.dao" />
 		<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"></property>
 	</bean>
 

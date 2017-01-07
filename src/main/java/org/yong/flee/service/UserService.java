@@ -1,12 +1,12 @@
-package org.yong.spring.mvc.service;
+package org.yong.flee.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.yong.spring.mvc.dao.UserMapper;
-import org.yong.spring.mvc.model.User;
+import org.yong.flee.dao.UserMapper;
+import org.yong.flee.model.User;
 
 @Service
-public class UserServiceImpl {
+public class UserService {
 
 	@Autowired
 	private UserMapper mapper;

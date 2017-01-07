@@ -1,4 +1,4 @@
-package org.yong.spring.mvc.interceptor;
+package org.yong.flee.interceptor;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

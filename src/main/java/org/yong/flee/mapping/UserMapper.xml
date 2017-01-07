@@ -5,7 +5,7 @@
 <mapper namespace="org.yong.spring.mvc.dao.UserMapper">
 
 
-	<resultMap id="mbuser" type="org.yong.spring.mvc.model.User">
+	<resultMap id="mbuser" type="org.yong.flee.model.User">
 		<id property="id" column="user_id" />
 		<result property="name" column="user_name" />
 		<result property="age" column="user_age" />
