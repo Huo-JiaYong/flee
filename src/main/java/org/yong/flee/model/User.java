@@ -3,8 +3,35 @@ package org.yong.flee.model;
 public class User {
 
 	private String id;
+	private String phone;
+	private String password;
 	private String name;
 	private int age;
+	private String head;
+
+	public String getPhone() {
+		return phone;
+	}
+
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	public String getHead() {
+		return head;
+	}
+
+	public void setHead(String head) {
+		this.head = head;
+	}
 
 	public String getId() {
 		return id;
